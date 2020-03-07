@@ -1,0 +1,50 @@
+ .outer {
+    width: device-width;
+    color: navy;
+    background-color: pink;
+    border: 2px solid darkblue;
+    padding: 5px;
+ }
+  .c {
+    text-align: center;
+  }
+  .tab{
+	width: device-width;
+    color: navy;
+    background-color: orange;
+    border: 2px solid darkblue;
+    padding: 5px;
+}
+.navbar{
+	width: 324;
+	length: 560;
+	background-color: #03d15c;
+	border: 2px black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+  h2 {font-family:"Verdana","Times New Roman",sans-serif; margin:0px;}
+  p {font-family:"Roboto,sans-serif;}
+  

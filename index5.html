@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MEQ</title>
+	<meta charset="utf-8">
+	<meta name="description" content ="Situl personal al lui Alex">
+	<meta name="author" content ="Alex">
+	<link rel="stylesheet" href="mycss.css">
+	<script type="text/javascript">
+    function showInput() {
+        document.getElementById('display').innerHTML = 
+                    document.getElementById("user_input").value;
+    }
+  </script>
+</head>
+<body>
+<header>
+<div class="outer">
+  <h2 class="c">Mathematical Equation Web Explorer</h2>
+</div>
+<div class="tab">
+<ul>
+<li><a href="algebra.html">Algebra</a></li>
+<li><a>Geometrie</a></li>
+<li><a>Trigonometrie</a></li>
+<li><a>Analiza</a></li>
+</ul>
+</div>
+</header>
+<article>
+<p></p>
+<form>
+    <label><b>Enter a Message</b></label>
+    <input type="text" name="message" id="user_input">
+  </form>
+
+  <input type="submit" onclick="showInput();"><br/>
+  <label>Your input: </label>
+ <p><span id='display'></span></p>
+</article>
+
+</body>
+</html>
