@@ -1,0 +1,11 @@
+body
+{
+	 background: #eee;
+}
+#chatBox{
+	background: red;
+}
+.chatForm
+{
+	margin-top:400px;
+}

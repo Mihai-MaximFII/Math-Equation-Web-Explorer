@@ -1,0 +1,5 @@
+<p>Mihai:Buna ziua!</p>
+<p>Codrin:Ce zi frumoasa este astazi!</p>
+<p>Mihai:Asa este !</p>
+<p>Codrin:Florin pute!</p>
+<p>Codrin:Hai ca am iesit</p>
