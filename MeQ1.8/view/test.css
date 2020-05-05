@@ -1,0 +1,48 @@
+*{
+    padding : 0;
+    margin : 0;
+    border : 0;
+    }
+    body{
+    background-attachment : fixed;
+    background-size : 100% auto;
+    }
+    .blended_grid{
+    display : block;
+    width : 550px;
+    overflow : auto;
+    margin : 100px auto 0 auto;
+
+    }
+    .middleBanner{
+    background-color :white;
+    float : left;
+    clear : none;
+    height : 300px;
+    width : 250px;
+    border:black;
+    border:2px solid;
+    }
+    .rightBanner{
+    background-color :white;
+    float : left;
+    clear : none;
+    height : 250px;
+    width : 250px;
+    border:black;
+    border:2px solid;
+    }
+    .topBanner{
+    background-color : white;
+    float : left;
+    clear : none;
+    height : 48px;
+    width : 250px;
+    border:black;
+    
+    }
+    img {
+    max-width: 250px;
+    height: 250px;
+}
+  
