@@ -1,0 +1,109 @@
+*{
+	padding : 0;
+	margin : 0;
+	border : 0;
+}
+.blended_grid{
+	display : inline-block;
+	width : 840px;
+	overflow : auto;
+	margin-bottom: 100px;
+	margin-left:150px;
+}
+.Reply{
+	clear : none;
+	float : left;
+
+	width:500px;
+
+}
+
+.Left{
+	border:2px solid;
+	clear : none;
+	float : left;
+	position : relative;
+	width : 150px;
+	height : 150px;
+}
+.Top1{
+	border-bottom: 1px solid;
+	padding-left:10px;
+	border:1px solid;
+	clear : none;
+	float : left;
+	position : relative;
+	width : 200px;
+	height : 110px;
+}
+.Top2{
+	padding-top: 15px;
+	clear : none;
+	float : left;
+	position : relative;
+	width : 350px;
+	height : 50px;
+}
+.Mid{
+
+	clear : none;
+	float : left;
+	position : relative;
+	width : 600px;
+	height : 220px;
+}
+img {
+	max-width: 150px;
+	height: 150px;
+}
+.RegularButton  {
+	border: none;
+	border:1px black solid;
+	color: black;
+	border-radius: 5px;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	opacity:1;
+}
+
+
+
+
+.blended_grid2{
+	padding-left:115px;
+	display : block;
+	width : 700px;
+	overflow : auto;
+	margin : 0 auto;
+}
+.ReplyTop{
+
+	float : left;
+	clear : none;
+	height : 220px;
+	width : 420px;
+}
+.ReplyRight1{
+	border:1px solid;
+	float : left;
+	clear : none;
+	height : 75px;
+	width : 200px;
+}
+.ReplyRight2{
+	border:1px solid;
+	float : left;
+	clear : none;
+	height : 125px;
+	width : 125px;
+}
+#Styled {
+
+	height: 150px;
+}
